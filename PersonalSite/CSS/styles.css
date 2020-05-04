@@ -1,0 +1,154 @@
+body {
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dd7631;
+  margin: 50px auto 0 auto;
+  font-family: 'Comfortaa', tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #dd7631;
+  margin: 50px auto 0 auto;
+  font-family: 'Comfortaa', tahoma, sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #dd7631;
+  margin: 50px auto 0 auto;
+  font-family: 'Comfortaa', tahoma, sans-serif;
+}
+
+p {
+  font-family: 'Comfortaa', tahoma, sans-serif;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 3rem;
+}
+
+hr {
+  border: dotted grey 10px;
+  border-bottom: none;
+  width: 10%;
+  margin: 50px auto;
+}
+
+a {
+  color: #40514E;
+  font-family: 'Comfortaa', sans-serif;
+  margin: 10px 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #dd7631;
+}
+
+.top-container {
+  background-color: #d4ebd0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+
+.middle-container {
+  padding-top: 60px;
+  background-color: #f9f9f9;
+  padding-bottom: 50px;
+}
+
+.about-me-img {
+  width: 150px;
+}
+
+.about-me {
+  width: 40%;
+  margin: 70px auto 70px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+}
+
+.consult-img {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.teach-img {
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-reason {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background: #588da8;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 6px;
+  font-family: 'Comfortaa', tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  margin: 20px;
+  box-shadow: 6px 6px 12px 0px #85A392;
+  -webkit-box-shadow: 6px 6px 12px 0px #85A392;
+  -moz-box-shadow: 6px 6px 12px 0px #85A392;
+}
+
+.btn:hover {
+  background: #d4ebd0;
+  text-decoration: none;
+  color: #dd7631;
+}
+
+
+.bottom-container {
+  padding-top: 30px;
+  background-color: #d4ebd0;
+}
+
+.footer-link {
+  margin-top: 30px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
