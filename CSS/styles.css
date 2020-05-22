@@ -113,6 +113,7 @@ a:hover {
 
 .interest-row {
   display: flex;
+  font-size: 12px;
   text-align: left;
 }
 
@@ -129,8 +130,8 @@ a:hover {
 	}
 
 .webdev-box {
-	font-size: 14px;
 	margin: 10px;
+	max-width: 30%;
 	}
 	
 .coding-img {
@@ -140,8 +141,8 @@ a:hover {
 }
 
 .travel-box {
-	font-size: 14px;
 	margin: 10px;
+	max-width: 30%;
 	}
 
 .travel-img {
@@ -151,8 +152,8 @@ a:hover {
 }
 
 .photo-box {
-	font-size: 14px;
 	margin: 10px;
+	max-width: 30%;
 	}
 
 .photo-img {
