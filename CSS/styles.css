@@ -115,6 +115,7 @@ a:hover {
   display: flex;
   font-size: 12px;
   text-align: left;
+  justify-content: center;
 }
 
 .interest-header-display {
