@@ -125,12 +125,12 @@ a:hover {
 	font-size: 14px;
 	color: #dd7631;
 	font-style: bold;
+	margin: 0;
 	}
 
 .webdev-box {
 	font-size: 14px;
 	margin: 10px;
-	max-width: 30%;
 	}
 	
 .coding-img {
@@ -142,7 +142,6 @@ a:hover {
 .travel-box {
 	font-size: 14px;
 	margin: 10px;
-	max-width: 30%;
 	}
 
 .travel-img {
@@ -154,7 +153,6 @@ a:hover {
 .photo-box {
 	font-size: 14px;
 	margin: 10px;
-	max-width: 30%;
 	}
 
 .photo-img {
