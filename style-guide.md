@@ -13,6 +13,8 @@
 - h1, h2, h3, hover, interest-link #dd7631
 - top-container #d4ebd0
 - middle-container #f9f9f9
+
+### Page Color
 - web-dev #c5e1a5
 - travel ##ffe082
 - photo #b3e5fc
