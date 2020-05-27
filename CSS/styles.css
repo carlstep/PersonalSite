@@ -107,6 +107,7 @@ a:hover {
 }
 
 .interests {
+  display: ;
   width: 90%;
   margin: 10px auto 20px auto;
 }
@@ -116,6 +117,11 @@ a:hover {
   display: flex;
   font-size: 12px;
   text-align: left;
+  justify-content: center;
+}
+
+.interests-row > section {
+  flex: 1;
   justify-content: center;
 }
 
@@ -132,8 +138,9 @@ a:hover {
 }
 
 .webdev-box {
+  margin: 5px 15px 0 15px;
   padding: 0 10px 0 10px;
-  max-width: 30%;
+  max-width: 60%;
   background-color: #c5e1a5;
   border-radius: 10px;
 }
@@ -146,9 +153,9 @@ a:hover {
 }
 
 .travel-box {
-  margin: 0 15px 0 15px;
+  margin: 5px 15px 0 15px;
   padding: 0 10px 0 10px;
-  max-width: 30%;
+  max-width: 60%;
   background-color: #ffe082;
   border-radius: 10px;
 }
@@ -161,8 +168,9 @@ a:hover {
 }
 
 .photo-box {
+  margin: 5px 15px 0 15px;
   padding: 0 10px 0 10px;
-  max-width: 30%;
+  max-width: 60%;
   background-color: #b3e5fc;
   border-radius: 10px;
 }
@@ -218,4 +226,10 @@ a:hover {
 
 .copyright {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .interest-row {
+      flex-direction: column;
+  }
 }
