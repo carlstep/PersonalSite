@@ -107,7 +107,6 @@ a:hover {
 }
 
 .interests {
-  display: ;
   width: 90%;
   margin: 10px auto 20px auto;
 }
@@ -117,6 +116,7 @@ a:hover {
   display: flex;
   font-size: 12px;
   text-align: left;
+  align-items: center;
   justify-content: center;
 }
 
@@ -228,7 +228,7 @@ a:hover {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .interest-row {
       flex-direction: column;
   }
