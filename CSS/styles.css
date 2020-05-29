@@ -111,23 +111,23 @@ a:hover {
   margin: 10px auto 20px auto;
 }
 
+
+/* this controls the flex of the My Interests section */
+
 .interest-row {
   display: flex;
   font-size: 12px;
   text-align: left;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
-/*.interests-row > section {
-  flex: 1;
-  justify-content: center;
-}*/
+/* this sets the dimensions of the interest-boxes */
 
 .flex-box-item {
 	width: 400px;
+	min-height: 200px;
 	margin: 10px;
-	padding: 5px;
+	padding: 10px;
 	}
 	
 .interest-header-display {
@@ -223,7 +223,7 @@ a:hover {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .interest-row {
       flex-direction: column;
       align-items: center;
