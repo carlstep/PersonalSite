@@ -131,6 +131,11 @@ a:hover {
   font-size: 16px;
 }
 
+.flex-box-item {
+  height: fit-content;
+  width: max-content;
+}
+
 .interest-link {
   font-size: 14px;
   color: #dd7631;
