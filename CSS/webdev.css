@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+
+body {
+    background-color: #c5e1a5;
+    display: flex;
+    flex-wrap: wrap;
+}
