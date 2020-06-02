@@ -139,7 +139,6 @@ a:hover {
 }
 
 .webdev-box {
-  margin: 5px 15px 0 15px;
   padding: 0 10px 0 10px;
   max-width: 80%;
   background-color: #c5e1a5;
@@ -154,7 +153,6 @@ a:hover {
 }
 
 .travel-box {
-  margin: 5px 15px 0 15px;
   padding: 0 10px 0 10px;
   max-width: 80%;
   background-color: #ffe082;
@@ -169,7 +167,6 @@ a:hover {
 }
 
 .photo-box {
-  margin: 5px 15px 0 15px;
   padding: 0 10px 0 10px;
   max-width: 80%;
   background-color: #b3e5fc;
